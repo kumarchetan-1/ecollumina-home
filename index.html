@@ -1,0 +1,2548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Ecollumina - Home</title>
+  <meta name="description" content="Lo Specialista in Illuminazione LED Eco-sostenibile" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap" />
+<style>
+  body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-13xl: 32px;
+  --font-size-7xl: 26px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-crimson-100: #ff3354;
+  --color-crimson-200: #e50d2e;
+  --color-darkslategray: #2f2e2e;
+  --color-lavenderblush: #f1e5e6;
+  --color-whitesmoke-100: #f5f5f5;
+  --color-cornflowerblue: #006ec6;
+  --color-lightgray: #cdcdcd;
+  --color-dimgray: #4e4848;
+
+  /* Gaps */
+  --gap-54xl: 73px;
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-0: 0px;
+  --gap-3xs: 10px;
+  --gap-13xl: 32px;
+  --gap-lg: 18px;
+  --gap-3xl: 22px;
+  --gap-21xl: 40px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-xl: 20px;
+  --padding-13xl: 32px;
+  --padding-12xs: 1px;
+  --padding-31xl: 50px;
+  --padding-base: 16px;
+  --padding-21xl: 40px;
+  --padding-2xl: 21px;
+  --padding-6xl: 25px;
+  --padding-lgi: 19px;
+  --padding-9xl: 28px;
+  --padding-lg: 18px;
+  --padding-2xs: 10px;
+  --padding-12xl: 31px;
+  --padding-5xl: 24px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+  --padding-56xl: 75px;
+  --padding-18xl: 37px;
+  --padding-4xs: 9.5px;
+
+  /* Border radiuses */
+  --br-10xs: 3px;
+  --br-3xs: 10px;
+  --br-base: 16px;
+}
+
+
+.content-wrapper {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.col-3 {
+  flex-basis: 23%;
+}
+
+.col-2 {
+  flex-basis: 10%;
+}
+
+.frame-child {
+  height: 43.1px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.icon-s {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.servizio-clienti-phone {
+  position: relative;
+  white-space: nowrap;
+}
+
+.top-list li a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 6px;
+  text-decoration: none;
+  color: var(--color-dimgray);
+}
+
+.top-list li a:hover {
+  text-decoration: underline;
+}
+
+.emailplaceholder {
+  position: relative;
+}
+
+.spedizione-veloce-in {
+  position: relative;
+  white-space: nowrap;
+}
+
+.sicuro-ssl-garantito {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.top-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  list-style: none;
+}
+.top-list {
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 var(--padding-12xs);
+  gap: 0 45px;
+  z-index: 1;
+}
+.top-row {
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-2xs) 0 12px;
+}
+.logo-image {
+  height: 79px;
+  max-width: 234px;
+  position: relative;
+}
+
+.iconlylight-outlinesearch {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+  z-index: 1;
+}
+
+#searchInput {
+  width: 85%;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+
+header .right-col a:hover svg path {
+  fill: var(--color-cornflowerblue);
+}
+
+/* Hamburger Icon */
+
+button.navbar-toggler.first-button {
+  background: no-repeat;
+  border: none;
+  padding: 0;
+}
+
+.animated-icon1 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span,
+.animated-icon2 span,
+.animated-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.animated-icon1 span {
+  background: #006ec6;
+}
+
+.animated-icon2 span {
+  background: #e3f2fd;
+}
+
+.animated-icon3 span {
+  background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.search-input-box {
+  flex: 1;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl);
+  gap: 0 16px;
+  max-width: 100%;
+}
+
+.e-commerce-logo-frame-child {
+  height: 40px;
+  width: 115px;
+  position: relative;
+  background-color: var(--color-crimson-200);
+  display: none;
+}
+.search-btn {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.search-submit-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) 30px var(--padding-4xs) 29px;
+  background-color: var(--color-crimson-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-left: -18px;
+}
+.search-submit-btn:hover,
+.cta-button:hover {
+  background-color: var(--color-crimson-100);
+}
+.search-container {
+  max-width: 539px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.search-holder {
+  flex-basis: 41%;
+}
+
+.people-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chi-siamo {
+  position: relative;
+  white-space: nowrap;
+}
+header .right-col a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+.location-on-icon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+}
+.map-del-sito-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+.map-del-sito-frame {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 25px;
+}
+.group-icon1 {
+  width: 23px;
+  height: 13.1px;
+  position: relative;
+}
+
+header .right-col a {
+  color: #2f2e2e;
+  text-decoration: none;
+}
+header .right-col a:hover {
+  color: var(--color-cornflowerblue);
+  text-decoration: underline;
+}
+.entra {
+  position: relative;
+  white-space: nowrap;
+}
+header .right-col .category-group {
+  gap: 14px 0;
+}
+.vertical-seperator {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+.shopping-cart {
+  width: 22.3px;
+  height: 23px;
+}
+.azienda-frame,
+.shopping-cart {
+  position: relative;
+}
+.cart-conta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+  text-align: center;
+  color: var(--color-cornflowerblue);
+}
+header .right-col {
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 25px;
+}
+.mid-row-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 4px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  color: var(--color-darkslategray);
+}
+
+.home-header {
+  background-color: var(--color-white);
+  top: 0;
+  z-index: 99;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  font-family: var(--font-lato);
+}
+
+/* Hero Section */
+.hero-section .left-col h1 {
+  color: var(--color-darkslategray);
+  font-family: Lato;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.subtitle {
+  color: #006ec6;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 103.8%;
+  margin-bottom: 5px;
+}
+
+.hero-section .left-col p {
+  margin: 0;
+  margin-bottom: 28px;
+  color: var(--color-darkslategray);
+  font-family: Lato;
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+a.cta-button.hero-btn {
+  min-width: 280px;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.content-container .left-col {
+  flex-basis: 50%;
+}
+
+.content-container .right-col {
+  flex-basis: 55%;
+}
+
+.image-conta img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+section.hero-section {
+  position: relative;
+}
+
+.image-conta {
+  position: absolute;
+  right: 0;
+  left: 45%;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.frame-inner {
+  height: 70px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.fai-da-te,
+.frutti-compatibili,
+.kit-antifurto-per,
+.lampadine-a-led,
+.telecomandi-universali {
+  position: relative;
+  text-transform: uppercase;
+}
+.main-menu-list {
+  /* .header-menu-items { */
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.main-menu-list {
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 20px;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+}
+.header-menu-container {
+  background-color: var(--color-whitesmoke-100);
+}
+.header-menu-items {
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-5xl) 0;
+}
+
+.header-menu-items ul.main-menu-list li {
+  color: var(--color-darkslategray);
+  font-family: Lato;
+  font-size: var(--font-size-lg);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-menu-items ul.main-menu-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-menu-items ul.main-menu-list li:hover {
+  color: #e50c2e;
+}
+
+/* Children Style */
+/* 
+li.lampadine-a-led.has-children > a:after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  transition: all .3s ease-in-out;
+  z-index: 1;
+}
+
+li.lampadine-a-led.has-children > a:after {
+  border: solid #384050;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  margin-top: 4px;
+  padding: 3.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+ul.children-conta {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.header-menu-items ul.main-menu-list ul.children-conta{
+display: none;
+}
+
+.header-menu-items ul.main-menu-list li.has-children:hover>ul.children-conta{
+display: block;
+}
+
+.header-menu-items ul.main-menu-list>li {
+  padding: 10px;
+}
+
+ul.children-conta {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: white;
+  z-index: 9;
+}
+
+
+a.child-link {
+  text-transform: capitalize;
+} */
+
+.ecollumina-home-discount-b-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.altre-categorie {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 103.8%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+}
+.image-56-icon {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: calc(50% - 111px);
+  width: 222px;
+  height: 130.3px;
+  object-fit: cover;
+}
+.european-legislation-image {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+}
+.frutti-compatibili1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.discount-banner-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+  z-index: 1;
+  margin-top: -10px;
+}
+.contact-us-frame {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 280px;
+  max-width: 308px;
+}
+.image-57-icon {
+  position: absolute;
+  top: calc(50% - 81px);
+  left: calc(50% - 81px);
+  width: 163px;
+  height: 163px;
+  object-fit: cover;
+}
+.image-57-wrapper {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+}
+.kit-antifurto-per1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.kit-antifurto-per-allarme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-2xs);
+  z-index: 1;
+  margin-top: -10px;
+}
+.contact-us-frame1 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 280px;
+  max-width: 308px;
+}
+.image-67-icon {
+  position: absolute;
+  top: calc(50% - 87px);
+  left: calc(50% - 101px);
+  border-radius: 24px;
+  width: 222px;
+  height: 175px;
+  object-fit: cover;
+}
+.image-67-wrapper {
+  align-self: stretch;
+  height: 222px;
+  position: relative;
+}
+.telecomandi-universali1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.telecomandi-universali-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+  z-index: 1;
+  margin-top: -10px;
+}
+.contact-us-frame2 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 280px;
+  max-width: 308px;
+}
+.image-59-icon,
+.image-60-icon {
+  position: relative;
+  object-fit: cover;
+}
+.image-59-icon {
+  align-self: stretch;
+  width: 70px;
+  max-height: 100%;
+  display: none;
+  min-height: 140px;
+}
+.image-60-icon {
+  height: 140px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.contact-us-frame-inner,
+.image-59-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* .image-59-parent {
+  width: 72px;
+  background-image: url(./public/image-59@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+.contact-us-frame-inner {
+  align-self: stretch;
+  padding: 41px 60px;
+}
+.fai-da-te1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.fai-da-te-elettronica-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+  z-index: 2;
+  margin-top: -10px;
+}
+.contact-us-frame3 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 280px;
+  max-width: 308px;
+}
+.altre-category-cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue);
+}
+.negozia-per-categoria,
+.payment-group {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.category-section {
+  background-color: #f8f8f8;
+}
+
+.negozia-per-categoria {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 0;
+}
+
+section {
+  padding: var(--padding-29xl) 0;
+}
+.category-section {
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
+.nuovi-prodotti {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: inherit;
+  line-height: 103.8%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+}
+
+.rectangle-div {
+  width: 308px;
+  height: 376px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+  display: none;
+}
+.cad,
+.image-47-icon {
+  position: relative;
+  z-index: 1;
+}
+.image-47-icon {
+  width: 219px;
+  height: 215px;
+  object-fit: cover;
+}
+.cad {
+  letter-spacing: 0.02em;
+}
+.cad-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lampadina-filamento-led {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.frame-child1,
+.product-card {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+.product-card {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-lgi) var(--padding-9xl)
+    var(--padding-lg);
+  gap: 10px 0;
+  justify-content: space-between;
+}
+.frame-child1 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.image-47-icon1 {
+  height: 208px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-47-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 var(--padding-2xl);
+}
+.div {
+  position: relative;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.presa-elettrica-temporizzata {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.frame-child2,
+.frame-div {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+.frame-div {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-lgi) var(--padding-9xl)
+    var(--padding-lg);
+  gap: 10px 0;
+}
+.frame-child2 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.cad1,
+.image-47-icon2 {
+  position: relative;
+  z-index: 1;
+}
+.image-47-icon2 {
+  width: 103px;
+  flex: 1;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cad1 {
+  letter-spacing: 0.02em;
+}
+.lampadine-lampada-led {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.cad-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.frame-child3 {
+  width: 308px;
+  height: 376px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+
+.frame-child3 {
+  position: relative;
+  display: none;
+}
+.image-47-icon3 {
+  height: 203px;
+  width: 203px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-47-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.cad2,
+.serie-frutti-matix {
+  position: relative;
+  z-index: 1;
+}
+.cad2 {
+  letter-spacing: 0.02em;
+}
+.serie-frutti-matix {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.cad-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.frame-child4 {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+
+.frame-child4 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.div1,
+.image-47-icon4 {
+  position: relative;
+  z-index: 1;
+}
+.image-47-icon4 {
+  width: 219px;
+  height: 215px;
+  object-fit: cover;
+}
+.div1 {
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bratek-10 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.frame-child5 {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+
+.frame-child5 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.image-47-icon5 {
+  height: 208px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-47-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 var(--padding-2xl);
+}
+.div2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  z-index: 1;
+}
+.bratek-4,
+.frame {
+  align-self: stretch;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bratek-4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.frame-child6 {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+
+.frame-child6 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.image-47-icon6 {
+  height: 205px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-47-wrapper1 {
+  width: 197px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.bratek-41,
+.div3 {
+  position: relative;
+  z-index: 1;
+}
+.div3 {
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.bratek-41 {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px 0;
+}
+.frame-child7 {
+  width: 308px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+}
+
+.frame-child7 {
+  height: 376px;
+  position: relative;
+  display: none;
+}
+.image-47-icon7 {
+  height: 203px;
+  width: 203px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-47-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.bratek-2-prese,
+.div4 {
+  position: relative;
+  z-index: 1;
+}
+.div4 {
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.bratek-2-prese {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.group,
+.rectangle-parent6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.group {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px 0;
+}
+
+.new-products,
+.nuovi-prodotti-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.new-products {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 32px 12px;
+  min-height: 784px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.nuovi-prodotti-parent {
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
+.fino-al-20 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  margin-bottom: 48px;
+}
+.vedi-tutte {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: left;
+}
+.cta-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 34px var(--padding-base) var(--padding-21xl);
+  background-color: #e50c2e;
+  white-space: nowrap;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Discount section  */
+
+.discount-section .right-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.discount-section .right-col {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* .discount-section .right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 717px;
+  height: 100%;
+  z-index: -1;
+} */
+.baner .left-col {
+  max-width: 50%;
+}
+
+.baner {
+  padding: 115px 0;
+}
+
+.discount-section {
+  background-color: #bdd9f0;
+  padding: 0;
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fino-al-20 {
+  font-size: 48px;
+}
+
+.azienda {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+a.menu-link {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+a.menu-link:hover {
+  text-decoration: underline;
+}
+
+ul.footer-menus {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+
+footer a.social-link:hover {
+  transform: scale(1.2);
+  transition: 0.3s transform ease-in-out;
+}
+footer a.social-link {
+  transition: 0.3s transform ease-in-out;
+}
+
+footer a.menu-link{
+  transition: 0.3s all ease-in-out;
+}
+
+footer a.menu-link:hover{
+color: var(--color-crimson-200);
+transition: 0.3s all ease-in-out;
+}
+
+ul.footer-menus li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.servizio-clienti {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.shipping-f-a-q {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.condizioni-di-vendita {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+}
+.about-us1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.pagamenti {
+  position: relative;
+  text-decoration: underline;
+}
+.group-icon3 {
+  height: 16px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group-icon4 {
+  height: 16.5px;
+  width: 25.9px;
+  position: relative;
+}
+.group-icon5 {
+  align-self: stretch;
+  width: 27px;
+  position: relative;
+  max-height: 100%;
+  min-height: 17px;
+}
+.payment-group,
+.privacy-policy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacy-policy {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 12px;
+}
+.payment-group {
+  flex: 1;
+  flex-direction: column;
+  gap: 14px 0;
+}
+.group-icon6,
+.group-icon7 {
+  position: absolute;
+  top: 0;
+  left: 1.1px;
+  width: 50.5px;
+  height: 16.3px;
+}
+.group-icon7 {
+  top: 31px;
+  left: 0;
+  width: 44.1px;
+  height: 15.9px;
+}
+.group-group {
+  height: 47px;
+  width: 52px;
+  position: relative;
+}
+.pagamenti-parent,
+.social-media-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social-media-links {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 11px;
+  max-width: 160px;
+}
+.pagamenti-parent {
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 11px 0;
+  font-size: var(--font-size-base);
+}
+.seguici {
+  position: relative;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.facebook-logo-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+
+.all-links-group,
+.legislation-protection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 15px;
+}
+.legislation-protection {
+  flex-direction: column;
+  gap: 12px 0;
+  font-size: var(--font-size-base);
+}
+.about-us-parent,
+.conditions-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.about-us-parent {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.conditions-panel {
+  align-self: stretch;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.the-customer-is {
+  margin: 0;
+}
+.copyright-2023 {
+  margin: 0;
+  white-space: normal;
+}
+
+.the-customer-is-container p {
+  margin-bottom: 20px;
+}
+
+.the-customer-is-container1 {
+  width: 100%;
+}
+.the-customer-is-container {
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  text-align: center;
+}
+
+.shipping-f-a-qs {
+  flex: 1;
+  flex-direction: column;
+  gap: 73px 0;
+  display: flex;
+}
+
+.image-11-icon {
+  height: 32px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.ecommerce-by-maxpho {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+}
+.image-11-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px var(--padding-xl);
+  gap: 0 5px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: #124c7a;
+}
+.ecollumina-home-wrapper {
+  font-family: var(--font-lato);
+}
+.payment-section-parent {
+  align-self: stretch;
+  background-color: #001f39;
+  align-items: center;
+  padding: var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+  gap: 25px 0;
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.ecollumina-home-wrapper {
+  letter-spacing: normal;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+@media screen and (max-width: 1350px) {
+  .main-menu-list {
+    flex-wrap: wrap;
+  }
+  .hero-section .left-col h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .nuovi-prodotti-parent {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .about-us-parent {
+    flex-wrap: wrap;
+  }
+  .shipping-f-a-qs {
+    gap: 73px 0;
+  }
+  .header-menu-items ul.main-menu-list li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .top-list {
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .hero-section .left-col h1 {
+    font-size: 38px;
+  }
+  .baner {
+    padding: 70px 0;
+  }
+  .fino-al-20 {
+    font-size: 35px;
+  }
+}
+
+button.navbar-toggler.first-button {
+  display: none;
+}
+
+@media (min-width: 921px) {
+  .header-menu-items {
+    display: block !important;
+    height: max-content !important;
+  }
+}
+@media screen and (max-width: 920px) {
+  button.navbar-toggler.first-button {
+    display: block;
+  }
+  .search-input-box {
+    gap: 5px;
+    padding-left: 8px;
+  }
+  section.hero-section {
+    padding-top: 60px;
+  }
+
+  .header-menu-items {
+    height: auto;
+  }
+
+  .header-menu-items {
+    display: none;
+  }
+
+  .header-menu-container {
+    padding: 12px 0;
+  }
+
+  .main-menu-list {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .header-menu-items ul.main-menu-list li {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
+  .slicedSearch-bar-conta {
+    flex-basis: 80%;
+  }
+  .hamburger-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hide-mob {
+    display: none;
+  }
+
+  .top-list {
+    gap: 20px;
+    justify-content: start;
+  }
+
+  .hero-section .content-container {
+    display: block;
+  }
+
+  .hero-section .image-conta {
+    position: inherit;
+    margin-top: 30px;
+  }
+
+  .logo-image {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .baner {
+    padding-bottom: 0;
+    padding-top: 60px;
+  }
+
+  .baner .left-col {
+    max-width: 100%;
+  }
+
+  .discount-section .right-col {
+    position: inherit;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .mid-row-wrap {
+    padding: 12px 0 12px;
+  }
+
+  header .right-col {
+    height: auto;
+    justify-content: space-between;
+    gap: 0 10px;
+  }
+
+  /* .servizio-clienti-phone,
+  .spedizione-veloce-in,
+  .sicuro-ssl-garantito,
+  .emailplaceholder {
+    font-size: 12px;
+  } */
+  /* .main-menu-list {
+    gap: 0 63.25px;
+  } */
+
+  .altre-categorie {
+    font-size: var(--font-size-7xl);
+    line-height: 27px;
+  }
+  .negozia-per-categoria {
+    gap: 40px 0;
+    box-sizing: border-box;
+  }
+
+  section {
+    padding: var(--padding-5xl) 0;
+  }
+
+  .payment-group {
+    box-sizing: border-box;
+  }
+  .nuovi-prodotti {
+    font-size: var(--font-size-7xl);
+    line-height: 27px;
+  }
+  .nuovi-prodotti-parent {
+    gap: 32px 0;
+  }
+  .fino-al-20 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .discount-section {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .shipping-f-a-qs {
+    gap: 73px 0;
+  }
+  .about-us-parent {
+    gap: 35px;
+  }
+  .col-3 {
+    flex-basis: 30%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero-section .left-col h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  a.cta-button.hero-btn{
+    min-width: 100%;
+  }
+
+  section.hero-section {
+    padding: 40px 0;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+  }
+  .top-list {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .mid-row-wrap {
+    gap: 6px;
+    justify-content: space-between;
+  }
+
+  img.logo-image {
+    max-width: 120px;
+  }
+  header .right-col a {
+    font-size: 12px;
+  }
+  header .right-col {
+    gap: 0 5px;
+  }
+  .map-del-sito-frame {
+    display: none;
+  }
+  .frame-child2,
+  .frame-div {
+    width: 280px;
+  }
+
+  .frame-child1,
+  .product-card {
+    width: 280px;
+  }
+
+  /* .main-menu-list {
+    gap: 0 63.25px;
+  } */
+  .altre-categorie,
+  .nuovi-prodotti {
+    font-size: var(--font-size-lgi);
+    line-height: 20px;
+  }
+  .cad {
+    font-size: var(--font-size-lgi);
+  }
+  .product-card {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-div {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cad1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .cad2 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .div1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .div2 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .div3,
+  .div4 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .nuovi-prodotti-parent {
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .fino-al-20 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .image-11-parent {
+    flex-wrap: wrap;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="ecollumina-home-wrapper">
+    <header class="home-header">
+      <div class="top-row">
+        <div class="content-wrapper">
+          <ul class="top-list">
+            <li>
+              <a href="tel:+391234598760">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.1111 12.0646C14 12.0646 12.9333 11.8868 11.9378 11.5579C11.6267 11.4601 11.28 11.5312 11.0311 11.7712L9.07556 13.7268C6.56 12.4468 4.49778 10.3935 3.21778 7.86902L5.17333 5.90457C5.42222 5.67346 5.49333 5.32679 5.39556 5.01568C5.06667 4.02013 4.88889 2.95346 4.88889 1.84235C4.88889 1.35346 4.48889 0.953461 4 0.953461H0.888889C0.4 0.953461 0 1.35346 0 1.84235C0 10.189 6.76444 16.9535 15.1111 16.9535C15.6 16.9535 16 16.5535 16 16.0646V12.9535C16 12.4646 15.6 12.0646 15.1111 12.0646ZM14.2222 8.95346H16C16 4.53568 12.4178 0.953461 8 0.953461V2.73124C11.44 2.73124 14.2222 5.51346 14.2222 8.95346ZM10.6667 8.95346H12.4444C12.4444 6.50013 10.4533 4.50902 8 4.50902V6.28679C9.47556 6.28679 10.6667 7.47791 10.6667 8.95346Z"
+                    fill="#4E4848" />
+                </svg>
+                <div class="servizio-clienti-phone">
+                  Servizio Clienti +[phone number]
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:test@gmail.com">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_786_784)">
+                    <path
+                      d="M13.3333 3.62012H2.66659C1.93325 3.62012 1.33992 4.22012 1.33992 4.95345L1.33325 12.9535C1.33325 13.6868 1.93325 14.2868 2.66659 14.2868H13.3333C14.0666 14.2868 14.6666 13.6868 14.6666 12.9535V4.95345C14.6666 4.22012 14.0666 3.62012 13.3333 3.62012ZM13.3333 6.28678L7.99992 9.62012L2.66659 6.28678V4.95345L7.99992 8.28678L13.3333 4.95345V6.28678Z"
+                      fill="#4E4848" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_786_784">
+                      <rect width="16" height="16" fill="white" transform="translate(0 0.953461)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="emailplaceholder">@email.placeholder</div>
+              </a>
+            </li>
+            <li class="hide-mob">
+              <a href="http://example.com">
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.9302 6.04226L16.6512 3.92598C16.3488 3.43761 15.814 3.13529 15.2558 3.15854H11.9535V2.08878C11.9535 1.27482 11.2791 0.600403 10.4651 0.600403H1.48837C0.674419 0.600403 0 1.27482 0 2.08878V10.1353C0 10.9492 0.674419 11.6237 1.48837 11.6237H2.25581C2.5814 12.833 3.76744 13.5539 4.97674 13.2283C5.76744 13.019 6.39535 12.4144 6.5814 11.6237H12.1628C12.4884 12.833 13.6744 13.5539 14.8837 13.2283C15.6744 13.019 16.3023 12.4144 16.4884 11.6237H17.4419C17.7674 11.6237 18 11.3911 18 11.0655V6.34459C18 6.22831 17.9535 6.13529 17.9302 6.04226ZM4.4186 12.1818C3.7907 12.1818 3.27907 11.6934 3.27907 11.0423C3.27907 10.4144 3.76744 9.90273 4.4186 9.90273C5.04651 9.90273 5.55814 10.3911 5.55814 11.0423C5.55814 11.6934 5.04651 12.1818 4.4186 12.1818ZM9 4.1818L5.86047 7.34459C5.65116 7.55389 5.32558 7.57715 5.09302 7.36785L3.32558 5.78645C3.09302 5.57715 3.06977 5.22831 3.27907 5.01901C3.48837 4.78645 3.83721 4.76319 4.04651 4.9725L4.06977 4.99575L5.44186 6.22831L8.2093 3.46087C8.44186 3.25157 8.7907 3.25157 8.97674 3.48412C9.2093 3.64691 9.2093 3.9725 9 4.1818ZM14.3721 12.1818C13.7442 12.1818 13.2326 11.6934 13.2326 11.0423C13.2326 10.4144 13.7209 9.90273 14.3721 9.90273C15 9.90273 15.5116 10.3911 15.5116 11.0423C15.4884 11.6934 15 12.1818 14.3721 12.1818ZM11.9535 5.80971V4.27482H15.2326C15.4186 4.27482 15.6047 4.36784 15.7209 4.53064L16.5116 5.80971H11.9535Z"
+                    fill="#4E4848" />
+                </svg>
+                <div class="spedizione-veloce-in">
+                  Spedizione veloce (in italia)
+                </div>
+              </a>
+            </li>
+            <li class="hide-mob">
+              <a href="http://">
+                <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_786_794)">
+                    <path
+                      d="M8.5 1.1618L2.125 3.99514V8.24514C2.125 12.1764 4.845 15.8526 8.5 16.7451C12.155 15.8526 14.875 12.1764 14.875 8.24514V3.99514L8.5 1.1618ZM8.5 8.94639H13.4583C13.0829 11.8647 11.135 14.4643 8.5 15.2789V8.95347H3.54167V4.91597L8.5 2.71305V8.94639Z"
+                      fill="#4E4848" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_786_794">
+                      <rect width="17" height="17" fill="white" transform="translate(0 0.453461)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="sicuro-ssl-garantito">Sicuro (SSL garantito)</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-main-row">
+        <div class="content-wrapper">
+          <div class="mid-row-wrap ">
+            <div class="logo-conta">
+              <img class="logo-image" loading="eager" alt="" src="./EcolluminaLogo.svg" />
+            </div>
+            <div class="search-holder">
+            <div class="search-container">
+              <div class="search-input-box">
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.99902 0C13.7689 0 17.6488 3.79428 17.6488 8.45896C17.6488 10.6597 16.7851 12.667 15.3719 14.1734L18.1528 16.8873C18.413 17.1418 18.4139 17.5535 18.1536 17.808C18.024 17.9366 17.8525 18 17.682 18C17.5123 18 17.3418 17.9366 17.2112 17.8098L14.3968 15.0651C12.9162 16.2246 11.039 16.9188 8.99902 16.9188C4.22914 16.9188 0.348389 13.1236 0.348389 8.45896C0.348389 3.79428 4.22914 0 8.99902 0ZM8.99902 1.30298C4.96372 1.30298 1.68076 4.51266 1.68076 8.45896C1.68076 12.4053 4.96372 15.6158 8.99902 15.6158C13.0334 15.6158 16.3164 12.4053 16.3164 8.45896C16.3164 4.51266 13.0334 1.30298 8.99902 1.30298Z"
+                    fill="black" fill-opacity="0.5" />
+                </svg>
+                <input id="searchInput" placeholder="Search..." type="text" />
+              </div>
+              <button class="search-submit-btn">
+                <b class="search-btn">Search</b>
+              </button>
+            </div>
+          </div>
+            <div class="right-col">
+              <a href="#" class="who-we-are">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_786_757)">
+                    <path
+                      d="M16.8636 11.9583C18.5928 11.9583 19.9782 10.5625 19.9782 8.83334C19.9782 7.10418 18.5928 5.70834 16.8636 5.70834C15.1345 5.70834 13.7386 7.10418 13.7386 8.83334C13.7386 10.5625 15.1345 11.9583 16.8636 11.9583ZM8.53031 11.9583C10.2595 11.9583 11.6449 10.5625 11.6449 8.83334C11.6449 7.10418 10.2595 5.70834 8.53031 5.70834C6.80115 5.70834 5.40531 7.10418 5.40531 8.83334C5.40531 10.5625 6.80115 11.9583 8.53031 11.9583ZM8.53031 14.0417C6.10323 14.0417 1.23865 15.2604 1.23865 17.6875V20.2917H15.822V17.6875C15.822 15.2604 10.9574 14.0417 8.53031 14.0417ZM16.8636 14.0417C16.5616 14.0417 16.2178 14.0625 15.8532 14.0938C17.0616 14.9688 17.9053 16.1458 17.9053 17.6875V20.2917H24.1553V17.6875C24.1553 15.2604 19.2907 14.0417 16.8636 14.0417Z"
+                      fill="#2F2E2E" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_786_757">
+                      <rect width="25" height="25" fill="white" transform="translate(0.197021 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="chi-siamo">Chi Siamo</div>
+              </a>
+              <a href="#" class="segmented-buttons-group">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_786_762)">
+                    <path
+                      d="M11.697 2.41666C7.98823 2.41666 4.98865 5.41624 4.98865 9.12499C4.98865 14.1562 11.697 21.5833 11.697 21.5833C11.697 21.5833 18.4053 14.1562 18.4053 9.12499C18.4053 5.41624 15.4057 2.41666 11.697 2.41666ZM11.697 11.5208C10.3745 11.5208 9.30115 10.4475 9.30115 9.12499C9.30115 7.80249 10.3745 6.72916 11.697 6.72916C13.0195 6.72916 14.0928 7.80249 14.0928 9.12499C14.0928 10.4475 13.0195 11.5208 11.697 11.5208Z"
+                      fill="#2F2E2E" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_786_762">
+                      <rect width="23" height="23" fill="white" transform="translate(0.197021 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="home">Home</div>
+              </a>
+              <a href="#" class="category-group">
+                <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.3065 1.89048L16.2494 5.83334H0.697021V8.02381H16.2494L12.3065 11.9667L13.8399 13.5L20.4113 6.92858L13.8399 0.357147L12.3065 1.89048ZM21.5065 0.357147V13.5H23.697V0.357147H21.5065Z"
+                    fill="#2F2E2E" />
+                </svg>
+
+                <div class="entra">Entra</div>
+              </a>
+              <div class="vertical-seperator"></div>
+              <div class="cart-conta">
+                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7.38793 18.9C6.16126 18.9 5.15763 19.935 5.15763 21.2C5.15763 22.465 6.16126 23.5 7.38793 23.5C8.6146 23.5 9.61823 22.465 9.61823 21.2C9.61823 19.935 8.6146 18.9 7.38793 18.9ZM0.697021 0.5V2.8H2.92732L6.94187 11.54L5.38066 14.3C5.26914 14.645 5.15763 15.105 5.15763 15.45C5.15763 16.715 6.16126 17.75 7.38793 17.75H20.7697V15.45H7.83399C7.72248 15.45 7.61096 15.335 7.61096 15.22V15.105L8.6146 13.15H16.8667C17.7588 13.15 18.4279 12.69 18.7625 12L22.777 4.525C23.0001 4.295 23.0001 4.18 23.0001 3.95C23.0001 3.26 22.554 2.8 21.8849 2.8H5.38066L4.37702 0.5H0.697021ZM18.5394 18.9C17.3128 18.9 16.3091 19.935 16.3091 21.2C16.3091 22.465 17.3128 23.5 18.5394 23.5C19.7661 23.5 20.7697 22.465 20.7697 21.2C20.7697 19.935 19.7661 18.9 18.5394 18.9Z"
+                    fill="#006EC6" />
+                </svg>
+                <b class="azienda-frame">(1)</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu-container">
+        <div class="content-wrapper">
+          <div class="hamburger-container">
+            <button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent9"
+            aria-controls="navbarToggleExternalContent9" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <div class="animated-icon1"><span></span><span></span><span></span></div>
+          </button>
+          <div class="slicedSearch-bar-conta"></div>
+          </div>
+  
+          <div class="header-menu-items">
+            <ul class="main-menu-list">
+              <li class="lampadine-a-led has-children">
+                <a href="http://">Lampadine a Led</a>
+                <!-- <ul class="children-conta">
+                  <li class="child-item"><a href="#" class="child-link"> Child 1</a></li>
+                  <li class="child-item"><a href="#" class="child-link"> Child 2</a></li>
+                  <li class="child-item"><a href="#" class="child-link"> Child 3</a></li>
+                  <li class="child-item"><a href="#" class="child-link"> Child 4</a></li>
+                  <li class="child-item"><a href="#" class="child-link"> Child 5</a></li>
+                </ul> -->
+              </li>
+              <li class="frutti-compatibili"><a href="http://">Frutti compatibili</a></li>
+              <li class="kit-antifurto-per"><a href="http://">Kit antifurto per allarme</a> </li>
+              <li class="telecomandi-universali"><a href="http://">Telecomandi universali </a> </li>
+              <li class="fai-da-te"><a href="http://">Fai da te elettronica</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="content-wrapper">
+        <div class="content-container">
+          <div class="left-col">
+            <div class="subtitle">BENVENUTO SU ECOLLUMINA</div>
+            <h1>
+              LO SPECIALISTA IN
+              ILLUMINAZIONE LED 
+              <span style="color: #006EC6;">ECO-SOSTENIBILE</span>
+            </h1>
+            <p>Esplora la nostra ampia gamma di lampadine LED ad alta efficienza energetica. Grazie al risparmio energetico
+              e al ridotto impatto ambientale, offriamo soluzioni di illuminazione di qualità, progettate per un futuro
+              sostenibile.</p>
+              <a class="cta-button hero-btn" href="https://">
+                <b class="vedi-tutte">ACQUISITA</b>
+              </a>
+          </div>
+          <div class="right-col">
+            <div class="image-conta">
+              <img loading="eager" alt="" src="./Hero-bulb.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <div class="content-wrapper">
+        <div class="negozia-per-categoria">
+          <h1 class="altre-categorie">ALTRE CATEGORIE</h1>
+          <div class="altre-category-cards">
+            <div class="contact-us-frame">
+              <div class="european-legislation-image">
+                <img class="image-56-icon" loading="eager" alt="" src="./Frutti-compaitbili@2x.png" />
+              </div>
+              <div class="discount-banner-content">
+                <div class="frutti-compatibili1">FRUTTI COMPATIBILI</div>
+              </div>
+            </div>
+            <div class="contact-us-frame1">
+              <div class="image-57-wrapper">
+                <img class="image-57-icon" loading="eager" alt="" src="./Kit-antifurto@2x.png" />
+              </div>
+              <div class="kit-antifurto-per-allarme-wrapper">
+                <div class="kit-antifurto-per1">Kit antifurto per allarme</div>
+              </div>
+            </div>
+            <div class="contact-us-frame2">
+              <div class="image-67-wrapper">
+                <img class="image-67-icon" loading="eager" alt="" src="./Telecomandi-universali@2x.png" />
+              </div>
+              <div class="telecomandi-universali-wrapper">
+                <div class="telecomandi-universali1">
+                  TELECOMANDI UNIVERSALI
+                </div>
+              </div>
+            </div>
+            <div class="contact-us-frame3">
+              <div class="contact-us-frame-inner">
+                <div class="image-59-parent">
+                  <img class="image-60-icon" loading="eager" alt="" src="./Fai-da-te-electronica.png" />
+                </div>
+              </div>
+              <div class="fai-da-te-elettronica-wrapper">
+                <div class="fai-da-te1">FAI DA TE ELETTRONICA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nuovi-prodotti-parent">
+      <div class="content-wrapper">
+        <h1 class="nuovi-prodotti">NUOVI PRODOTTI</h1>
+        <div class="new-products">
+          <div class="rectangle-container product-card">
+            <div class="rectangle-div"></div>
+            <img class="image-47-icon" loading="eager" alt="" src="./image-47@2x.png" />
+
+            <div class="cad-wrapper">
+              <div class="cad">€ 12,90 cad.</div>
+            </div>
+            <div class="lampadina-filamento-led">
+              Lampadina Filamento Led Fiamma 4w E14 Luce Calda Vintage MULTI
+              PACK - BRATEK
+            </div>
+          </div>
+          <div class="frame-div product-card">
+            <div class="frame-child1"></div>
+            <div class="image-47-wrapper">
+              <img class="image-47-icon1" alt="" src="./image-47-1@2x.png" />
+            </div>
+            <div class="wrapper">
+              <div class="div">€ 8,90</div>
+            </div>
+            <div class="presa-elettrica-temporizzata">
+              PRESA ELETTRICA TEMPORIZZATA CON TIMER ANALOGICO 24H 16A MAX 3680W
+            </div>
+          </div>
+          <div class="rectangle-parent1 product-card">
+            <div class="frame-child2"></div>
+            <img class="image-47-icon2" alt="" src="./image-47-2@2x.png" />
+
+            <div class="cad-parent">
+              <div class="cad1">€ 10,90 cad.</div>
+              <div class="lampadine-lampada-led">
+                LAMPADINE LAMPADA LED BULBO A60 9W E27 DOPPIO SENSORE
+                CREPUSCOLARE - BRATEK
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-parent2 product-card">
+            <div class="frame-child3"></div>
+            <div class="image-47-container">
+              <img class="image-47-icon3" alt="" src="./image-47-3@2x.png" />
+            </div>
+            <div class="cad-group">
+              <div class="cad2">€ 1,19 cad.</div>
+              <div class="serie-frutti-matix">
+                SERIE FRUTTI MATIX COMPATIBILE PRESA SCHUKO LAN PULSANTE
+                DEVIATORE USB
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-parent3 product-card">
+            <div class="frame-child4"></div>
+            <img class="image-47-icon4" alt="" src="./image-47-4@2x.png" />
+
+            <div class="container">
+              <div class="div1">€ 20,00</div>
+            </div>
+            <div class="bratek-10">
+              BRATEK - 10 supporti placche per interruttori bticino - Placchette
+              interruttori luce e frutti elettr...
+            </div>
+          </div>
+          <div class="rectangle-parent4 product-card ">
+            <div class="frame-child5"></div>
+            <div class="image-47-frame">
+              <img class="image-47-icon5" alt="" src="./image-47-5@2x.png" />
+            </div>
+            <div class="frame">
+              <div class="div2">€ 17,00</div>
+            </div>
+            <div class="bratek-4">
+              BRATEK - 4 Interruttori bticino compatibili - Interruttori luce da
+              muro - Interruttore bticino...
+            </div>
+          </div>
+          <div class="rectangle-parent5 product-card">
+            <div class="frame-child6"></div>
+            <div class="image-47-wrapper1">
+              <img class="image-47-icon6" alt="" src="./image-47-6@2x.png" />
+            </div>
+            <div class="parent">
+              <div class="div3">€ 15,00</div>
+              <div class="bratek-41">
+                BRATEK - 4 Supporti placche per interruttori bticino -
+                Placchette interruttori luce e frutti elettrici...
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-parent6 product-card">
+            <div class="frame-child7"></div>
+            <div class="image-47-wrapper2">
+              <img class="image-47-icon7" alt="" src="./image-47-7@2x.png" />
+            </div>
+            <div class="group">
+              <div class="div4">€ 25,00</div>
+              <div class="bratek-2-prese">
+                Bratek 2 Prese usb da muro doppie - Presa usb da muro 2.1a
+                compatibile Compatibile con...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount-section">
+      <div class="content-wrapper">
+        <div class="baner">
+          <div class="left-col">
+            <h2 class="fino-al-20">
+              FINO AL 20% DI SCONTO CON ACQUISTO MULTIPLO
+            </h2>
+            <a href="#" class="cta-button">
+              <b class="vedi-tutte">Vedi tutte</b>
+            </a>
+          </div>
+          <div class="right-col">
+            <img class="right-image" loading="eager" alt="" src="./bulbs.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="payment-section-parent">
+      <div class="content-wrapper">
+        <div class="payment-section">
+          <div class="shipping-f-a-qs">
+            <div class="conditions-panel">
+              <div class="about-us-parent">
+                <div class="about-us col-3">
+                  <b class="azienda">AZIENDA</b>
+                  <ul class="footer-menus">
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Chi siamo</a>
+                    </li>
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Dive siamo</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="shipping-f-a-q col-3">
+                  <b class="servizio-clienti">SERVIZIO CLIENTI</b>
+                  <ul class="footer-menus">
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Spedizioni & Recesso</a>
+                    </li>
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">FAQ</a>
+                    </li>
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Contattaci</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="about-us1 col-3">
+                  <b class="condizioni-di-vendita">CONDIZIONI DI VENDITA</b>
+                  <ul class="footer-menus">
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Condizioni di utilizzo</a>
+                    </li>
+                    <li class="footer-menu-item">
+                      <a href="" class="menu-link">Mappa Del Sito</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pagamenti-parent col-3">
+                  <b class="pagamenti">PAGAMENTI</b>
+                  <div class="social-media-links">
+                    <div class="payment-group">
+                      <img class="group-icon3" alt="" src="./Paypal.svg" />
+
+                      <div class="privacy-policy">
+                        <img class="group-icon4" alt="" src="./group-4.svg" />
+
+                        <img class="group-icon5" alt="" src="./mastercard.svg" />
+                      </div>
+                    </div>
+                    <div class="group-group">
+                      <img class="group-icon6" alt="" src="./Visa.svg" />
+
+                      <img class="group-icon7" alt="" src="./AmericanExpress.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="legislation-protection col-2">
+                  <b class="seguici">Seguici</b>
+                  <div class="all-links-group">
+                    <a href="https://www.facebook.com" class="social-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_786_1390)">
+                          <path
+                            d="M17.3049 0H2.69516C1.20676 0 0.00012207 1.20659 0.00012207 2.69504V17.3049C0.00012207 18.7933 1.20671 19.9999 2.69516 19.9999H9.90061L9.91289 12.853H8.05613C7.81483 12.853 7.61899 12.6579 7.61806 12.4166L7.60915 10.1129C7.60822 9.87025 7.80466 9.67308 8.04728 9.67308H9.90066V7.44709C9.90066 4.86384 11.4783 3.45724 13.7828 3.45724H15.6737C15.9157 3.45724 16.1118 3.65339 16.1118 3.89537V5.83789C16.1118 6.07978 15.9158 6.27587 15.674 6.27602L14.5135 6.27655C13.2603 6.27655 13.0176 6.87207 13.0176 7.74602V9.67313H15.7714C16.0338 9.67313 16.2373 9.90225 16.2064 10.1628L15.9334 12.4666C15.9072 12.687 15.7203 12.8531 15.4983 12.8531H13.0299L13.0176 20H17.305C18.7934 20 20 18.7934 20 17.305V2.69504C19.9999 1.20659 18.7933 0 17.3049 0Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_786_1390">
+                            <rect width="20" height="20" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                    <a href="https://www.instagram.com" class="social-link">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path
+                          d="M10.0032 0C5.82854 0 4.60743 0.00429696 4.36992 0.0238286C3.51326 0.0953144 2.98005 0.230083 2.39918 0.519541C1.95151 0.741811 1.59838 0.999629 1.25033 1.36096C0.61555 2.01957 0.231168 2.83013 0.0921025 3.79343C0.024523 4.26102 0.00460078 4.35673 0.000694458 6.74584C-0.000868073 7.54234 0.000694458 8.5904 0.000694458 9.99629C0.000694458 14.169 0.00538205 15.389 0.0253043 15.6261C0.0944463 16.4601 0.225308 16.9847 0.502267 17.5585C1.03157 18.657 2.04214 19.4816 3.2324 19.7894C3.64452 19.8957 4.09999 19.9539 4.68438 19.9816C4.93204 19.9926 7.45631 20 9.98214 20C12.508 20 15.0334 19.9969 15.2752 19.9848C15.9522 19.9527 16.3452 19.9 16.7795 19.7879C17.9776 19.4785 18.9698 18.6664 19.5097 17.5523C19.7812 16.9921 19.9187 16.4476 19.9812 15.6573C19.9948 15.4851 20.0003 12.7374 20.0003 9.99356C20.0003 7.24936 19.9941 4.50673 19.9808 4.33446C19.9179 3.53132 19.78 2.99107 19.4999 2.42036C19.2698 1.95316 19.0147 1.60394 18.644 1.24729C17.9823 0.615246 17.1733 0.230473 16.2092 0.091408C15.7416 0.0242192 15.6487 0.00429696 13.2584 0H10.0032Z"
+                          fill="white" />
+                        <path
+                          d="M10.004 2.56812C7.98441 2.56812 7.73089 2.5771 6.9379 2.61304C6.14609 2.64937 5.60585 2.77437 5.13318 2.95836C4.64411 3.1482 4.22926 3.40212 3.81597 3.81501C3.40229 4.22791 3.14838 4.64277 2.95775 5.13106C2.77337 5.60372 2.64797 6.14397 2.61243 6.93461C2.57688 7.7272 2.5675 7.98072 2.5675 9.99873C2.5675 12.0167 2.57649 12.2695 2.61243 13.0621C2.64876 13.8531 2.77415 14.393 2.95775 14.8656C3.14798 15.3543 3.4019 15.7688 3.81558 16.1821C4.22887 16.5953 4.64372 16.85 5.1324 17.0399C5.60545 17.2235 6.14609 17.3489 6.93751 17.3852C7.73089 17.4211 7.98402 17.4301 10.0036 17.4301C12.0232 17.4301 12.2759 17.4211 13.0693 17.3852C13.8611 17.3489 14.4021 17.2239 14.8752 17.0399C15.3642 16.85 15.7783 16.5957 16.1916 16.1824C16.6053 15.7695 16.8592 15.3547 17.0498 14.8664C17.2326 14.3937 17.358 13.8535 17.3951 13.0629C17.4307 12.2703 17.4401 12.0175 17.4401 9.99951C17.4401 7.9815 17.4307 7.72798 17.3951 6.93539C17.358 6.14436 17.2326 5.6045 17.0498 5.13184C16.8592 4.64316 16.6053 4.22869 16.1916 3.81541C15.7779 3.40212 15.3642 3.1482 14.8748 2.95836C14.4005 2.77476 13.8599 2.64937 13.0685 2.61304C12.2751 2.5771 12.0228 2.56812 10.0024 2.56812H10.004ZM9.33717 3.9072C9.53522 3.90681 9.75593 3.9072 10.0044 3.9072C11.99 3.9072 12.2251 3.91424 13.0091 3.94978C13.7341 3.98299 14.1275 4.10408 14.3896 4.20565C14.7365 4.34042 14.9842 4.50136 15.2443 4.76152C15.5045 5.02168 15.6658 5.26934 15.801 5.61622C15.9029 5.87795 16.024 6.27092 16.0572 6.99555C16.0928 7.77876 16.1006 8.01432 16.1006 9.99717C16.1006 11.9804 16.0928 12.2156 16.0572 12.9988C16.024 13.7234 15.9029 14.1164 15.801 14.3781C15.6662 14.725 15.5049 14.9719 15.2443 15.2316C14.9842 15.4918 14.7369 15.6527 14.3896 15.7875C14.1279 15.8899 13.7341 16.0106 13.0091 16.0434C12.2251 16.0789 11.9896 16.0867 10.0044 16.0867C8.01878 16.0867 7.78323 16.0789 6.99962 16.0434C6.27461 16.0098 5.88124 15.8891 5.61874 15.7871C5.27185 15.6524 5.0238 15.4914 4.76364 15.2313C4.50348 14.9711 4.34215 14.7242 4.20699 14.3773C4.10503 14.1156 3.98394 13.7226 3.95073 12.998C3.91519 12.2148 3.90816 11.9792 3.90816 9.99521C3.90816 8.0108 3.91519 7.77681 3.95073 6.99359C3.98394 6.26897 4.10503 5.87599 4.20699 5.61388C4.34176 5.267 4.50309 5.01934 4.76364 4.75917C5.0238 4.49901 5.27185 4.33807 5.61874 4.20291C5.88085 4.10057 6.27461 3.97986 6.99962 3.94666C7.68557 3.9158 7.95159 3.90642 9.33756 3.90486L9.33717 3.9072ZM13.9736 5.14121C13.481 5.14121 13.0814 5.54005 13.0814 6.03264C13.0814 6.52483 13.481 6.92445 13.9736 6.92445C14.4662 6.92445 14.8658 6.52522 14.8658 6.03264C14.8658 5.54005 14.4662 5.14082 13.9736 5.14121ZM10.004 6.18303C7.89495 6.18303 6.18515 7.89166 6.18515 9.99912C6.18515 12.1066 7.89495 13.8144 10.004 13.8144C12.113 13.8144 13.822 12.1066 13.822 9.99912C13.822 7.89166 12.113 6.18303 10.004 6.18303ZM10.004 7.52212C11.3728 7.52212 12.4829 8.63112 12.4829 9.99912C12.4829 11.3671 11.3731 12.4761 10.004 12.4761C8.63481 12.4761 7.52502 11.3671 7.52502 9.99912C7.52541 8.63073 8.6352 7.52212 10.004 7.52212Z"
+                          fill="#006EC6" />
+                      </svg>
+                    </a>
+                    <a href="https://www.whatsapp.com" class="social-link">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.000244141" width="20" height="20" rx="3" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M15.2491 4.83666C13.912 3.49792 12.1337 2.76034 10.2391 2.75952C6.33533 2.75952 3.15809 5.93656 3.15652 9.84157C3.15604 11.0898 3.48211 12.3082 4.10194 13.3823L3.09717 17.0524L6.85172 16.0675C7.8862 16.6318 9.0509 16.9292 10.2362 16.9296H10.2392C14.1426 16.9296 17.3201 13.7522 17.3217 9.84709C17.3224 7.95475 16.5863 6.17533 15.2491 4.83666ZM10.2392 15.7335H10.2368C9.18051 15.7331 8.14446 15.4493 7.24068 14.9129L7.02569 14.7854L4.79768 15.3698L5.39236 13.1975L5.2524 12.9747C4.66316 12.0375 4.35189 10.9543 4.35236 9.84191C4.35366 6.59625 6.99441 3.95571 10.2416 3.95571C11.8138 3.95625 13.2919 4.56933 14.4033 5.68211C15.5147 6.79482 16.1264 8.2738 16.1258 9.84674C16.1245 13.0927 13.4837 15.7335 10.2392 15.7335ZM13.4681 11.3246C13.2912 11.236 12.4212 10.8079 12.2589 10.7488C12.0968 10.6899 11.9787 10.6603 11.8608 10.8375C11.7428 11.0146 11.4036 11.4132 11.3004 11.5314C11.1971 11.6494 11.0939 11.6643 10.917 11.5756C10.74 11.4871 10.1698 11.3002 9.49383 10.6972C8.96776 10.228 8.6126 9.64852 8.50937 9.47128C8.40613 9.2941 8.49833 9.19836 8.58698 9.11012C8.66657 9.0308 8.76395 8.90337 8.85247 8.80007C8.94098 8.69676 8.97042 8.62289 9.02943 8.5048C9.08845 8.38671 9.05894 8.28334 9.01465 8.19482C8.97042 8.10617 8.61649 7.23509 8.46902 6.88075C8.32538 6.53574 8.17948 6.58242 8.07086 6.57697C7.96776 6.57186 7.84967 6.5707 7.73165 6.5707C7.61369 6.5707 7.42201 6.61499 7.25976 6.79216C7.09758 6.96933 6.6404 7.39748 6.6404 8.26855C6.6404 9.13962 7.27448 9.98105 7.36299 10.0992C7.45144 10.2173 8.6109 12.0048 10.3861 12.7714C10.8082 12.9537 11.1379 13.0626 11.395 13.1442C11.8189 13.2789 12.2047 13.2598 12.5096 13.2143C12.8496 13.1635 13.5566 12.7862 13.7041 12.3728C13.8515 11.9594 13.8515 11.605 13.8073 11.5312C13.7631 11.4575 13.6451 11.4132 13.4681 11.3246Z"
+                          fill="#006EC6" />
+                      </svg>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="the-customer-is-container">
+              <span class="the-customer-is-container1">
+                <p class="the-customer-is">
+                  The Customer is protected by European legislation regarding
+                  the GDPR 2016/679 (General Data Protection Regulation)
+                  regarding the data protection and privacy.
+                </p>
+                <p class="copyright-2023">
+                  Copyright © 2023 Demo Maxpho VAT n.: test VAT
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-11-parent">
+        <a href="https://www.maxpho.com/it/">
+          <img class="image-11-icon" loading="eager" alt="" src="./maxpho-logo-blue.svg" />
+        </a>
+        <div class="ecommerce-by-maxpho">eCommerce by Maxpho</div>
+      </div>
+    </footer>
+  </div>
+
+  <script defer>
+let hamburger = document.querySelector('.first-button'),
+    animatedIcons = document.querySelector('.animated-icon1'),
+    menuItems = document.querySelector('.header-menu-items');
+
+hamburger.addEventListener('click', function () {
+  animatedIcons.classList.toggle('open');
+  slideToggle(menuItems);
+});
+
+function slideToggle(element) {
+  if (window.getComputedStyle(element).display === 'none') {
+    slideDown(element);
+  } else {
+    slideUp(element);
+  }
+}
+
+function slideDown(element) {
+  element.style.display = 'block';
+  element.style.height = 'auto'; 
+  const height = element.scrollHeight;
+  element.style.overflow = 'hidden';
+  element.style.height = '0px';
+  setTimeout(function() {
+    element.style.height = height + 'px';
+  }, 0);
+}
+
+function slideUp(element) {
+  const height = element.scrollHeight;
+  element.style.overflow = 'hidden';
+  element.style.height = height + 'px';
+  setTimeout(function() {
+    element.style.height = '0px';
+  }, 0);
+  setTimeout(function() {
+    element.style.display = 'none';
+  }, 250); // Adjust duration to match CSS transition duration
+}
+
+
+// Search bar handling 
+let searchContainer = document.querySelector('.search-holder > .search-container');
+const slicedSearchBarConta = document.querySelector('.slicedSearch-bar-conta');
+let isMoved = false;
+
+// Function to handle screen size change
+function handleScreenSizeChange() {
+  const screenSize = window.innerWidth;
+
+  if (screenSize <= 920 && !isMoved) {
+    // Append the element to ".slicedSearch-bar-conta" if screen size is 920px or less
+    slicedSearchBarConta.appendChild(searchContainer);
+    isMoved = true;
+  } else if (screenSize > 920 && isMoved) {
+    // Move the element back to ".search-holder" if screen size is greater than 920px
+    const searchHolder = document.querySelector('.search-holder');
+    searchHolder.insertBefore(searchContainer, searchHolder.firstChild);
+    isMoved = false;
+  }
+}
+
+// Initial call to handle screen size on page load
+handleScreenSizeChange();
+
+// Event listener to handle screen size changes
+window.addEventListener('resize', handleScreenSizeChange);
+
+
+  </script>
+</body>
+
+</html>
